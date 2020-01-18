@@ -1,6 +1,6 @@
 Name:           perl-Text-CSV_XS
 Version:        1.00
-Release:        3%{?dist}
+Release:        1%{?dist}
 Summary:        Comma-separated values manipulation routines
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -67,12 +67,6 @@ make test %{?_smp_mflags}
 %{_mandir}/man3/*.3pm*
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.00-3
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.00-2
-- Mass rebuild 2013-12-27
-
 * Fri Jun 14 2013 Petr Šabata <contyk@redhat.com> - 1.00-1
 - 1.00 bugfix bump
 
